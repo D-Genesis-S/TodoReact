@@ -2,7 +2,7 @@ import TodoItem from './TodoItem'
 import {memo, useContext} from "react";
 import {TasksContext} from "../context/TasksContext.jsx";
 
-const TodoList = (props) => {
+const TodoList = () => {
   const {
       tasks,
       filteredTasks,
